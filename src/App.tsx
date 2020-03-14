@@ -7,12 +7,7 @@ const App = () => {
     message.info("Hello, World!");
   };
   return (
-    <Row
-      type="flex"
-      justify="center"
-      align="middle"
-      style={{ height: "100vh" }}
-    >
+    <Row justify="center" align="middle" style={{ height: "100vh" }}>
       <Col>
         <Button type="primary" size="large" onClick={onClick}>
           Say Hello
